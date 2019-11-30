@@ -25,7 +25,7 @@ class Api extends Component {
 
         const newArray = data.map((currentValue, index) => {
             return(
-                <li key={index} className="list-group-item">{currentValue} <span className="badge badge-primary">14</span></li>
+                <li key={index} className="list-group-item list-group-item-success">{currentValue} <span className="badge">14</span></li>
                 
                 );
         });
